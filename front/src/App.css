@@ -1,0 +1,14 @@
+
+
+body {
+    font-family: "Handlee", cursive;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+

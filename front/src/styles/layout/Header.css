@@ -1,0 +1,31 @@
+header {
+    background-color: rgb(0, 0, 0);
+    display: inline-flex;
+    width: 100%;
+}
+
+#logo {
+    height: 155px;
+    padding-top: 17px;
+}
+
+#logo:hover {
+    padding-top: 14px;
+    height: 165px;
+    transition-duration: 0.15s;
+}
+
+#guitarra {
+    width: 250px;
+    padding-right: 80px;
+}
+
+header h1 {
+    color: rgb(210, 185, 107);
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 160px;
+}

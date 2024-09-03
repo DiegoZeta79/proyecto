@@ -1,0 +1,39 @@
+.leyendas {
+    border: 1px solid #080808;
+    border-radius: 5px;
+    margin: 15px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.leyendas .info {
+    font-size: 14px;
+}
+
+.info h4 {
+    font-size: 25px;
+    font-weight: 200;
+    font-style: italic;
+    color: rgb(181, 142, 33);
+    padding-left: 20px;
+    letter-spacing: 5px;
+    text-shadow: 1px 0px 0px black,
+        0px 1px 0px black,
+        -1px 0px 0px black,
+        0px -1px 0px black;
+}
+
+.leyendas img {
+    margin-left: 18px;
+    margin-right: 18px;
+    border-radius: 3px;
+    display: block;
+    max-width: 225px;
+    box-shadow: 1px 1px 1px rgb(141, 139, 132);
+}
+
+.leyendas:nth-child(even) {
+    flex-direction: row-reverse;
+    text-align: end;
+}
